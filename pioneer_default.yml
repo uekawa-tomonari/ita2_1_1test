@@ -1,0 +1,9 @@
+conf:
+  timeout: 60
+
+exec_list:
+  - expect: 'password:'
+    exec: "{{ __loginpassword__ }}"
+  - expect: 'sshpass@'
+    exec: echo '{{ VAR_01 }}'
+
