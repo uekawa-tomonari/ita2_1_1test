@@ -1,1 +1,2 @@
 - command: echo {{ VAR_01 }}
+- command: echo bb
