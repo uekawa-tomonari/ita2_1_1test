@@ -5,3 +5,6 @@ variable "VAR_str" {
 output "greeting" {
   value = "${var.VAR_str}"
 }
+output "chara" {
+  value = "chara"
+}
