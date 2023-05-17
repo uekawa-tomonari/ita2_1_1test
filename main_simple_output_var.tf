@@ -6,3 +6,6 @@ output "greeting" {
   value = "${var.VAR_str}"
 }
 
+output "chara" {
+  value = "${var.VAR_str}"
+}
