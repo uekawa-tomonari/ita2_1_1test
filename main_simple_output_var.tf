@@ -1,7 +1,8 @@
-variable "VAR_str" {
-    type = string
-    default = "doum"
+resource "random_pet" "pet" {
+    keepers = {
+        val = timestamp()
+    }
 }
-output "greeting" {
-  value = "${var.VAR_str}"
+output "pet" {
+    value = random_pet.pet.id
 }
