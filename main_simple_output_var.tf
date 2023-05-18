@@ -14,3 +14,6 @@ variable "VAR_str" {
 output "greeting" {
   value = "${var.VAR_str}"
 }
+output "cahara" {
+  value = "${var.VAR_str}"
+}
