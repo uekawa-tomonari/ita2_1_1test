@@ -1,6 +1,6 @@
 variable "VAR_str" {
     type = string
-    default = "doumo"
+    default = "doum"
 }
 output "greeting" {
   value = "${var.VAR_str}"
