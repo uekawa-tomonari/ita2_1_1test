@@ -12,8 +12,6 @@ output "pet" {
 
 
 
-
-
 variable "VAR_str" {
     type = string
     default = "doumo"
